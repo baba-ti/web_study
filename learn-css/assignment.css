@@ -1,0 +1,54 @@
+/* Index css 
+   7번 여러개의 스타일을 만들어 html에 import하기 위한 css 파일*/
+body {
+  /*4번 가장 뒷배경의 색을 cadetblue로 바꿈*/
+  background-color: cadetblue;
+  padding-top: 150px;
+}
+
+hr {
+  margin: 0 30px;
+}
+
+td {
+  vertical-align: top;
+  width: 450px;
+}
+
+h2 {
+  color: black;
+}
+
+.profile {
+  /*4번 테이블에 있는 개인 정보를 소개할때 내부 뒷배경을 aliceblue색으로 교체 후 경계쪽 형태, 색깔을 설정함*/
+  background-color: aliceblue;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 900px;
+
+  text-align: center;
+}
+
+.profile_image {
+  /*1번 내 사진의 디자인을 원으로 설정 후 크기를 조정 함*/
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  margin-top: -100px;
+}
+
+.text {
+  /*3번, 6번 기본적인 테이블 내에 있는 글자들의 색상을 gray색으로 설정 후 크기, 정렬을 변경 함*/
+  color: gray;
+  text-align: left;
+  font-size: 1.1em;
+  list-style: none;
+}
+.search_engines img {
+  width: 100px;
+  margin: 10px;
+}

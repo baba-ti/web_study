@@ -1,0 +1,71 @@
+<!-- 기본 index HTML -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>개인 홈페이지</title>
+    <link rel="stylesheet" href="/learn-css/assignment.css" />
+    <!--css파일을 import하기 위해 link 코드를 작성함-->
+  </head>
+  <body>
+    <div class="profile">
+      <img src="/assets/IMG_0647.JPG" class="profile_image" />
+      <!-- 1번 저의 사진을 넣고 css클래스를 적용시켜 이미지 디자인을 변경함 -->
+      <h1>Jung Jae Hyun(정재현)</h1>
+      <hr />
+      <table>
+        <!--2번 테이블을 만들고 4개의 테이블을 구성하여 개인 내용을 소개함-->
+        <td>
+          <tr>
+            <td>
+              <h2>Information</h2>
+              <!--2번 첫번째 테이블은 저의 기본 정보를 소개함-->
+              <ul class="text">
+                <li>이름: 정재현</li>
+                <li>생일: 2000 / 08/ 02</li>
+                <li>핸드폰: 010 - 2855- 6147</li>
+                <li>이메일: jjh123456744@gmail.com</li>
+              </ul>
+            </td>
+            <td>
+              <h2>Educational History</h2>
+              <!--2번 두번째 테이블은 저의 학력을 소개함-->
+              <ul class="text">
+                <li>2016 ~ 2018 경북대학교사범대학부설고등학교</li>
+                <li>2019 ~ 계명대학교 컴퓨터공학과</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <h2>Etc</h2>
+              <!--2번 세번째 테이블은 저의 좋아하는것, 공부 중인것을 소개-->
+              <ul class="text">
+                <li><em>Python / Tenserflow</em> 공부 중</li>
+                <li><em>ISIP</em> 연구실에서 영상처리 연구 중</li>
+                <!--5번 이탤릭체 폰트를 위해 em을 사용-->
+                <li>맛집 탐방하기 좋아함</li>
+                <li>여행 다니는거 좋아함</li>
+              </ul>
+            </td>
+            <td>
+              <br />
+              <br />
+              <br />
+              <div class="search_engines">
+                <!--2번, 8번 네번째 테이블은 네이버, 구글 검색엔진을 넣기위해 만듬-->
+                <a href="https://www.google.com/" target="_blank"
+                  ><img src="/assets/캡처.PNG" alt="Google"
+                /></a>
+                <a href="https://www.naver.com/" target="_blank"
+                  ><img src="/assets/캡처1.PNG" alt="Naver"
+                /></a>
+              </div>
+            </td>
+          </tr>
+        </td>
+      </table>
+    </div>
+  </body>
+</html>
